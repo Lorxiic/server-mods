@@ -10,7 +10,7 @@ if(strpos($_SERVER['REQUEST_URI'],"DB.php")){
     PlainDie();
 }
 
-$conn = new mysqli("localhost", "id17665729_pagete", "r#N/c>El&APX29lL", "id17665729_shadow");
+$conn = new mysqli("localhost", "b9d750177742e4", "1b89c436", "heroku_e8390792d8f98c7");
 if($conn->connect_error != null){
     die($conn->connect_error);
 }
